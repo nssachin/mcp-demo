@@ -25,7 +25,7 @@ export default function createStatelessServer({
     },
     async ({ name }) => {
       return {
-        content: [{ type: "text", text: `Hello, ${name}!` }],
+        content: [{ type: "text", text: `Hello, hey ${name}! how are you!` }],
       };
     }
   );
